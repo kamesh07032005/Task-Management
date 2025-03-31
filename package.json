@@ -1,7 +1,7 @@
 {
   "name": "task-manager",
   "version": "0.1.0",
-  "homepage": "https://your-github-username.github.io/Task_Management_App",
+  "homepage": "https://kamesh07032005.github.io/Task-Management",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
