@@ -17,7 +17,7 @@ A modern, responsive task management application built with React that helps use
 
 ## Live Demo
 
-Visit the live application: [Task Management App](https://yourusername.github.io/task-management-app)
+Visit the live application: [Task Management App](https://kamesh07032005.github.io/Task-Management)
 
 ## Getting Started
 
@@ -31,8 +31,8 @@ Visit the live application: [Task Management App](https://yourusername.github.io
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/task-management-app.git
-cd task-management-app
+git clone https://github.com/kamesh07032005/Task-Management.git
+cd Task-Management
 ```
 
 2. Install dependencies:
