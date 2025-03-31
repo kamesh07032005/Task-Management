@@ -15,6 +15,10 @@ A modern, responsive task management application built with React that helps use
 - Smooth animations
 - Persistent storage using localStorage
 
+## Live Demo
+
+Visit the live application: [Task Management App](https://yourusername.github.io/task-management-app)
+
 ## Getting Started
 
 ### Prerequisites
@@ -44,6 +48,44 @@ npm start
 ```
 
 The application will open in your default browser at `http://localhost:3000`.
+
+## Deployment
+
+To deploy the application to GitHub Pages:
+
+1. Update the `package.json` file:
+
+   ```json
+   {
+     "homepage": "https://yourusername.github.io/task-management-app"
+     // ... other configurations
+   }
+   ```
+
+2. Install GitHub Pages package:
+
+   ```bash
+   npm install --save gh-pages
+   ```
+
+3. Add deployment scripts to `package.json`:
+
+   ```json
+   {
+     "scripts": {
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d build"
+       // ... other scripts
+     }
+   }
+   ```
+
+4. Deploy the application:
+   ```bash
+   npm run deploy
+   ```
+
+The application will be deployed to the GitHub Pages URL specified in your homepage.
 
 ## Usage
 
